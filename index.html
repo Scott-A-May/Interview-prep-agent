@@ -268,7 +268,7 @@ Return ONLY a JSON object (no markdown, no explanation) with this structure:
 }
 
 Rules:
-- 3-5 questions per category
+- 3 questions per category
 - Experience gaps: questions about skills in the job description absent or thin in the resume
 - Behavioral: STAR-format questions based on key responsibilities
 - Technical: specific to tools and skills in the job description
@@ -288,7 +288,7 @@ ${job}`;
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           model: 'claude-sonnet-4-6',
-          max_tokens: 4000,
+          max_tokens: 8000,
           messages: [{ role: 'user', content: prompt }]
         })
       });
