@@ -1,5 +1,7 @@
 # Interview Prep Agent
 
+🔗 **Live App:** [Interview Prep Agent](https://scott-a-may.github.io/interview-prep-agent)
+
 A browser-based AI tool that analyzes a job description alongside your resume and generates tailored interview questions a hiring panel is likely to ask.
 
 Built as part of my AI-augmented analytics portfolio.
@@ -20,10 +22,6 @@ Built as part of my AI-augmented analytics portfolio.
 - Frontend: plain HTML/CSS/JS hosted on GitHub Pages
 - AI: Anthropic Claude (claude-sonnet-4-6) via a Cloudflare Worker proxy
 - The API key is stored securely as a Cloudflare secret — never exposed in the frontend code
-
-## Try it
-
-[https://scott-a-may.github.io/interview-prep-agent](https://scott-a-may.github.io/interview-prep-agent)
 
 ## Tech stack
 
