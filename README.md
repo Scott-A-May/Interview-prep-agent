@@ -6,6 +6,8 @@ A browser-based AI tool that analyzes a job description alongside your resume an
 
 Built as part of my AI-augmented analytics portfolio.
 
+Note:  It will generate a 429 error if it exhausts its monthly credit limit.
+
 ## What it does
 
 - Paste your resume and any job description
